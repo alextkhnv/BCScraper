@@ -1,0 +1,545 @@
+2016-06-10 20:13:48 [scrapy] INFO: Scrapy 1.1.0 started (bot: tutorialScrapy)
+2016-06-10 20:13:48 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tutorialScrapy.spiders', 'FEED_URI': 'file:///D:/Pyton/tutorialScrapy/items/tutorialScrapy/category/b01f210f2f2e11e6aa32001966f77bc4.jl', 'SPIDER_MODULES': ['tutorialScrapy.spiders'], 'BOT_NAME': 'tutorialScrapy', 'DEFAULT_ITEM_CLASS': 'tutorialScrapy.items.ProductItem', 'FEED_FORMAT': 'json', 'LOG_FILE': 'logs\\tutorialScrapy\\category\\b01f210f2f2e11e6aa32001966f77bc4.log'}
+2016-06-10 20:13:48 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-06-10 20:13:48 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-06-10 20:13:48 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-06-10 20:13:48 [py.warnings] WARNING: tutorialScrapy\pipelines.py:17: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+
+2016-06-10 20:13:48 [scrapy] INFO: Enabled item pipelines:
+['tutorialScrapy.pipelines.JsonExportPipeline']
+2016-06-10 20:13:48 [scrapy] INFO: Spider opened
+2016-06-10 20:13:48 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-06-10 20:13:49 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-06-10 20:13:53 [scrapy] DEBUG: Crawled (200) <GET http://www.buyincoins.ru/sitemap.html> (referer: None)
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'Bluetooth \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430',
+ 'url': u'/c/Bluetooth-Device_27.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0413\u0430\u0440\u043d\u0438\u0442\u0443\u0440\u044b',
+ 'url': u'/c/Headsets_28.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041a\u043b\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u044b, \u041c\u044b\u0448\u0438 \u0438 \u0423\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0412\u0432\u043e\u0434\u0430',
+ 'url': u'/c/Keyboards-Mice-Input_29.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0410\u0434\u0430\u043f\u0442\u0435\u0440\u044b \u0438 \u0437\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0434\u043b\u044f \u043d\u043e\u0443\u0442\u0431\u0443\u043a\u0430',
+ 'url': u'/c/Laptop-Adapters-Chargers_31.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u043d\u044b\u0435 \u043a\u0430\u0431\u0435\u043b\u0438 \u0438 \u0410\u0434\u0430\u043f\u0442\u0435\u0440\u044b',
+ 'url': u'/c/Computer-Cables-Adapters_32.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430',
+ 'url': u'/c/Computer-Components_33.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0410\u0434\u0430\u043f\u0442\u0435\u0440\u044b \u0434\u043b\u044f \u043f\u0440\u0438\u043d\u0442\u0435\u0440\u043e\u0432 \u0438 \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Printer-Supplies-Accessories_34.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0424\u043b\u044d\u0448 \u043a\u0430\u0440\u0442\u044b',
+ 'url': u'/c/Flash-Memory-Drives_36.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0440\u044b',
+ 'url': u'/c/Memory-Card-Readers_37.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0412\u0435\u0431-\u043a\u0430\u043c\u0435\u0440\u044b',
+ 'url': u'/c/Webcams_38.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0421\u0435\u0442\u0435\u0432\u044b\u0435 \u0430\u0434\u0430\u043f\u0442\u0435\u0440\u044b \u0438 \u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b',
+ 'url': u'/c/Network-Adapter-Tools_39.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0411\u0435\u0441\u043f\u0440\u043e\u0432\u043e\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430',
+ 'url': u'/c/Wireless-Devices_40.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041d\u043e\u0443\u0442\u0431\u0443\u043a\u0438',
+ 'url': u'/c/Laptops-Notebooks_143.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'USB \u0433\u0430\u0434\u0436\u0435\u0442\u044b',
+ 'url': u'/c/USB-Gadget_209.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'USB \u0445\u0430\u0431 \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0430\u0442\u043e\u0440\u044b',
+ 'url': u'/c/USB-Hub_210.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u041f\u043b\u0430\u043d\u0448\u0435\u0442\u044b \u0438 \u042d\u043b. \u043a\u043d\u0438\u0433\u0438',
+ 'url': u'/c/Tablets-eReaders_356.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u043a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u0430',
+ 'url': u'/c/Other-Computer-Accessories_30.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u041a\u0430\u0431\u0435\u043b\u0438 \u0438 \u0410\u0434\u0430\u043f\u0442\u0435\u0440\u044b',
+ 'url': u'/c/Cable-Adapter_19.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u0411\u0430\u0442\u0430\u0440\u0435\u0438',
+ 'url': u'/c/Batteries_68.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u0417\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430',
+ 'url': u'/c/Chargers_70.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u041f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u0438 \u0420\u043e\u0437\u0435\u0442\u043a\u0438',
+ 'url': u'/c/Convertors-Sockets_71.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u041a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440\u044b \u0438 \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0435 \u0432\u0435\u0441\u044b',
+ 'url': u'/c/Calculator-Digital-Scale_72.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'DIY \u0417\u0430\u043f\u0447\u0430\u0441\u0442\u0438 \u0438 \u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b',
+ 'url': u'/c/DIY-Parts-Tools_73.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0435 \u043f\u043e\u0434\u0430\u0440\u043a\u0438',
+ 'url': u'/c/Electronics-Gifts_74.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u0411\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0438 \u0417\u0430\u0449\u0438\u0442\u0430',
+ 'url': u'/c/Safety-Security_79.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u041b\u0430\u0437\u0435\u0440\u043d\u044b\u0435 \u0443\u043a\u0430\u0437\u043a\u0438',
+ 'url': u'/c/Laser-Pointers_85.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u041a\u0430\u0440\u0442\u044b \u043f\u0430\u043c\u044f\u0442\u0438',
+ 'url': u'/c/Memory-Cards_145.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u0422\u0412 \u043f\u0440\u0438\u0435\u043c\u043d\u0438\u043a\u0438',
+ 'url': u'/c/TV-Receiver_149.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'title': u'\u0414\u0440\u0443\u0433\u0430\u044f \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430',
+ 'url': u'/c/Other-Electronics_75.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0410\u043a\u043a\u0443\u043c\u0443\u043b\u044f\u0442\u043e\u0440\u044b \u0434\u043b\u044f \u0441\u043e\u0442\u043e\u0432\u044b\u0445 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u0432',
+ 'url': u'/c/Cell-Phone-Batteries_43.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0421\u0443\u043c\u043e\u0447\u043a\u0438 \u0438 \u0427\u0435\u0445\u043b\u044b \u0434\u043b\u044f \u0441\u043e\u0442\u043e\u0432\u044b\u0445 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u0432',
+ 'url': u'/c/Cell-Phone-Bags-Cases_45.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0421\u043e\u0442\u043e\u0432\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b',
+ 'url': u'/c/Cell-Phone_46.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0417\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0438 \u0414\u043e\u043a-\u0441\u0442\u0430\u043d\u0446\u0438\u0438',
+ 'url': u'/c/Chargers-Cradles_47.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0414\u0430\u0442\u0430 \u043a\u0430\u0431\u0435\u043b\u0438 \u0438 \u0417\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430',
+ 'url': u'/c/Data-Cables-Chargers_48.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0417\u0430\u0449\u0438\u0442\u043d\u044b\u0435 \u043f\u043b\u0435\u043d\u043a\u0438',
+ 'url': u'/c/Screen-Protectors_50.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'DIY \u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u0441\u043e\u0442\u043e\u0432\u044b\u0445 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u0432',
+ 'url': u'/c/DIY-Cellphone-Tools_129.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u041a\u0430\u0440\u0442\u0440\u0438\u0434\u0440\u0434\u044b \u0434\u043b\u044f \u0441\u0438\u043c-\u043a\u0430\u0440\u0442\u044b',
+ 'url': u'/c/Sim-Card-Reader_137.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0413\u0430\u0440\u043d\u0438\u0442\u0443\u0440\u044b',
+ 'url': u'/c/Headsets_174.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0421\u0442\u0438\u043b\u0443\u0441\u044b',
+ 'url': u'/c/Stylus_175.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'Smart Watches',
+ 'url': u'/c/Smart-Watches_439.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u0441\u043e\u0442\u043e\u0432\u044b\u0445 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u043e\u0432',
+ 'url': u'/c/Other-Cell-Phone-Accessories_51.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0423\u0445\u043e\u0434 \u0437\u0430 \u0432\u043e\u043b\u043e\u0441\u0430\u043c\u0438',
+ 'url': u'/c/Hair-Care_122.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0423\u0445\u043e\u0434 \u0437\u0430 \u043a\u043e\u0436\u0435\u0439',
+ 'url': u'/c/Skin-Care_124.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0423\u0445\u043e\u0434 \u0437\u0430 \u043f\u043e\u043b\u043e\u0441\u0442\u044c\u044e \u0440\u0442\u0430',
+ 'url': u'/c/Oral-Care_125.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0423\u0445\u043e\u0434 \u0437\u0430 \u043d\u043e\u0433\u0442\u044f\u043c\u0438',
+ 'url': u'/c/Nail-Care_126.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0423\u0445\u043e\u0434 \u0437\u0430 \u0442\u0435\u043b\u043e\u043c',
+ 'url': u'/c/Body-Care_160.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u041c\u0430\u043a\u0438\u044f\u0436',
+ 'url': u'/c/Makeup_162.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u041f\u0430\u0440\u0438\u043a\u0438 \u0438 \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Hair-Wigs-Accessories_235.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u041d\u0430\u0440\u0430\u0449\u0438\u0432\u0430\u043d\u0438\u0435 \u0432\u043e\u043b\u043e\u0441',
+ 'url': u'/c/Hair-Extensions_236.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u041f\u0440\u0438\u0431\u043e\u0440 \u0434\u043b\u044f \u0437\u0434\u043e\u0440\u043e\u0432\u044c\u044f',
+ 'url': u'/c/Health-Care_340.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'title': u'\u0414\u0440\u0443\u0433\u043e\u0435 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u0438 \u041a\u0440\u0430\u0441\u043e\u0442\u0430',
+ 'url': u'/c/Other-Health-Beauty_128.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'Tools, Meters & Testers',
+ 'url': u'/c/Tools-Meters-Testers_447.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u0411\u044b\u0442\u043e\u0432\u0430\u044f \u0442\u0435\u0445\u043d\u0438\u043a\u0430',
+ 'url': u'/c/Home-Appliances_154.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u0411\u044b\u0442\u043e\u0432\u044b\u0435 \u0432\u0435\u0449\u0438 \u0434\u043b\u044f \u0434\u043e\u043c\u0430',
+ 'url': u'/c/Household-Sundries_155.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u041a\u0443\u0445\u043d\u044f, \u0441\u0442\u043e\u043b\u043e\u0432\u0430\u044f \u0438 \u0431\u0430\u0440',
+ 'url': u'/c/Kitchen-Dining-Bar_156.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u041e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435',
+ 'url': u'/c/Lighting_157.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u0422\u043e\u0432\u0430\u0440\u044b \u0434\u043b\u044f \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0445 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445',
+ 'url': u'/c/Pet-Supplies_158.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u0412\u0430\u043d\u043d\u0430\u044f',
+ 'url': u'/c/Bathroom_170.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'\u0427\u0430\u0439 \u0438 \u041f\u0440\u0438\u0431\u043e\u0440',
+ 'url': u'/c/Tea-Tea-Set_381.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'Festive & Party Supplies',
+ 'url': u'/c/Festive-Party-Supplies_442.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'Home Decorations',
+ 'url': u'/c/Home-Decorations_443.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'title': u'Food & Beverages',
+ 'url': u'/c/Food-Beverages_422.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0416\u0435\u043d\u0441\u043a\u0438\u0435 \u0441\u0443\u043c\u043a\u0438 \u0438 \u041f\u043e\u0440\u0442\u0444\u0435\u043b\u0438',
+ 'url': u'/c/Womens-Handbags-Bags_225.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0421\u0432\u0430\u0434\u044c\u0431\u0430 \u0438 \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Wedding-Accessories_341.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u041c\u0443\u0436\u0441\u043a\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430',
+ 'url': u'/c/Mens-Clothing_357.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0416\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430',
+ 'url': u'/c/Womens-Clothing_358.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u041e\u0434\u0435\u0436\u0434\u0430, \u0422\u0443\u0444\u043b\u0438 \u0438 \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u0440\u0435\u0431\u0435\u043d\u043a\u0430 \u0438 \u043c\u043b\u0430\u0434\u0435\u043d\u0446\u0430',
+ 'url': u'/c/Baby-Kids-Clothing-Shoes-Accessories_360.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u043c\u0443\u0436\u0447\u0438\u043d',
+ 'url': u'/c/Mens-Accessories_382.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u041c\u0443\u0436\u0441\u043a\u0438\u0435 \u0442\u0443\u0444\u043b\u0438',
+ 'url': u'/c/Mens-Shoes_383.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0416\u0435\u043d\u0441\u043a\u0438\u0435 \u0442\u0443\u0444\u043b\u0438',
+ 'url': u'/c/Womens-Shoes_384.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u0436\u0435\u043d\u0449\u0438\u043d',
+ 'url': u'/c/Womens-Accessories_385.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u041c\u043e\u0434\u0430',
+ 'title': u'\u0414\u0440\u0443\u0433\u0430\u044f \u041e\u0434\u0435\u0436\u0434\u0430, \u0422\u0443\u0444\u043b\u0438 \u0438 \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Other-Clothing-Shoes-Accessories_102.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041f\u043e\u0434\u0432\u0435\u0441\u043a\u0438 \u0438 \u041a\u0443\u043b\u043e\u043d\u044b',
+ 'url': u'/c/Pendants-Charms_104.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0411\u0440\u0430\u0441\u043b\u0435\u0442\u044b',
+ 'url': u'/c/Bracelets_105.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0421\u0435\u0440\u044c\u0433\u0438',
+ 'url': u'/c/Earrings_106.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041a\u043e\u043b\u044c\u0446\u0430',
+ 'url': u'/c/Rings_107.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041e\u0436\u0435\u0440\u0435\u043b\u044c\u044f',
+ 'url': u'/c/Necklaces_108.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041d\u0430\u0440\u0443\u0447\u043d\u044b\u0435 \u0447\u0430\u0441\u044b',
+ 'url': u'/c/Wristwatches_110.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041d\u0430\u0441\u0442\u043e\u043b\u044c\u043d\u044b\u0435 \u0447\u0430\u0441\u044b',
+ 'url': u'/c/Desk-Table-Clock_114.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0418\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0434\u043b\u044f  \u0447\u0430\u0441\u043e\u0432',
+ 'url': u'/c/Watch-Tools-Accessories_134.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0414\u0435\u0442\u0430\u043b\u0438 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u044b\u0445 \u0438\u0437\u0434\u0435\u043b\u0438\u0439',
+ 'url': u'/c/Jewelry-Tools_142.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0411\u0443\u0441\u044b',
+ 'url': u'/c/Loose-Beads_219.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041a\u0430\u0440\u043c\u0430\u043d\u043d\u044b\u0435 \u0447\u0430\u0441\u044b',
+ 'url': u'/c/Pocket-Watches_221.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u042d\u0440\u043e\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043e\u0436\u0435\u0440\u0435\u043b\u044c\u044f',
+ 'url': u'/c/Body-Jewelry_270.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b \u0434\u043b\u044f \u043d\u0435\u0432\u0435\u0441\u0442\u044b',
+ 'url': u'/c/Wedding-Jewelry-Accessories_345.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u041c\u0443\u0436\u0441\u043a\u0438\u0435 \u044e\u0432\u0435\u043b\u0438\u0440\u043d\u044b\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u044f',
+ 'url': u'/c/Mens-Jewelry_412.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0431\u0438\u0436\u0443\u0442\u0435\u0440\u0438\u044f \u0438 \u0427\u0430\u0441\u044b',
+ 'url': u'/c/Other-Jewelry-Watches_413.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'\u0410\u0432\u0442\u043e \u0437\u0430\u0440\u044f\u0434\u043d\u044b\u0435 \u0443\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0430 \u0438 \u0410\u0434\u0430\u043f\u0442\u0435\u0440\u044b',
+ 'url': u'/c/Car-Kit-Chargers-Adapters_52.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'\u0410\u0432\u0442\u043e \u0410\u0443\u0434\u0438\u043e \u0438 \u0412\u0438\u0434\u0435\u043e',
+ 'url': u'/c/Car-Audio-Video_53.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'DIY \u0418\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439',
+ 'url': u'/c/DIY-Car-Tools_55.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'GPS \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u044f',
+ 'url': u'/c/GPS-Navigation_76.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'\u041b\u0430\u043c\u043f\u044b \u0434\u043b\u044f \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u0435\u0439',
+ 'url': u'/c/Car-Lighting_153.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0430\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Other-Car-Accessories_56.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'Fishing',
+ 'url': u'/c/Fishing_448.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u0424\u043e\u043d\u0430\u0440\u0438\u043a\u0438',
+ 'url': u'/c/Flashlight-Torch_82.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u0413\u043e\u043b\u044c\u0444',
+ 'url': u'/c/Golf_118.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u041f\u043b\u0430\u0432\u0430\u043d\u0438\u0435',
+ 'url': u'/c/Swimming_121.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u0424\u0438\u0437\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0437\u0430\u0440\u044f\u0434\u043a\u0430 \u0438 \u0424\u0438\u0442\u043d\u0435\u0441',
+ 'url': u'/c/Exercise-Fitness_150.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u041a\u0435\u043c\u043f\u0438\u043d\u0433 \u0438 \u041f\u043e\u0445\u043e\u0434',
+ 'url': u'/c/Camping-Hiking_151.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u0414\u043b\u044f \u0432\u0435\u043b\u043e\u0441\u0438\u043f\u0435\u0434\u0430',
+ 'url': u'/c/Cycling_152.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'2014 World Cup',
+ 'url': u'/c/2014-World-Cup_432.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0421\u043f\u043e\u0440\u0442',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0441\u043f\u043e\u0440\u0442\u0438\u0432\u043d\u044b\u0435 \u0442\u043e\u0432\u0430\u0440\u044b',
+ 'url': u'/c/Other-Sports-Goods_140.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u041c\u0443\u0437\u044b\u043a\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b',
+ 'url': u'/c/Musical-Instruments_226.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u041a\u0430\u043d\u0446\u0435\u043b\u044f\u0440\u0441\u043a\u0438\u0435 \u0442\u043e\u0432\u0430\u0440\u044b',
+ 'url': u'/c/Stationery_227.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u0420\u0430\u0434\u0438\u043e\u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0435 \u0438 \u0417\u0430\u043f\u0447\u0430\u0441\u0442\u0438',
+ 'url': u'/c/Radio-Control-Parts_229.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u0421\u0442\u0430\u0442\u0443\u0435\u0442\u043a\u0438',
+ 'url': u'/c/Action-Figures_230.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u041c\u044f\u0433\u043a\u0438\u0435 \u0438\u0433\u0440\u0443\u0448\u043a\u0438',
+ 'url': u'/c/Stuffed-Animals_231.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u041a\u043b\u0430\u0441\u0441\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0438\u0433\u0440\u0443\u0448\u043a\u0438',
+ 'url': u'/c/Classic-Toys_232.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u041f\u0440\u0438\u043a\u043e\u043b\u044c\u043d\u044b\u0435 \u0438\u0433\u0440\u0443\u0448\u043a\u0438',
+ 'url': u'/c/Tricky-Toys_233.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u0413\u043e\u043b\u043e\u0432\u043e\u043b\u043e\u043c\u043a\u0438 \u0438 \u041e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u0435',
+ 'url': u'/c/Puzzles-Educational_234.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'main_category': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'title': u'\u0414\u0440\u0443\u0433\u0438\u0435 \u0438\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'url': u'/c/Other-Toys-Hobbies_228.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0410\u0443\u0434\u0438\u043e \u0438 \u0412\u0438\u0434\u0435\u043e',
+ 'url': u'/c/Audio-Video_3.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b \u0438 \u0421\u0435\u0442\u0438',
+ 'url': u'/c/Computers-Networking_4.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0421\u043e\u0442\u043e\u0432\u044b\u0435 \u0442\u0435\u043b\u0435\u0444\u043e\u043d\u044b',
+ 'url': u'/c/Cell-Phones_5.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Car-Accessories_6.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u041a\u0430\u043c\u0435\u0440\u0430 \u0438 \u0424\u043e\u0442\u043e\u0430\u043f\u043f\u0430\u0440\u0430\u0442',
+ 'url': u'/c/Camera-Photo_7.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0430',
+ 'url': u'/c/Electronics_8.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0412\u0438\u0434\u0435\u043e\u0438\u0433\u0440\u044b',
+ 'url': u'/c/Video-Games_10.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u041c\u043e\u0434\u0430',
+ 'url': u'/c/Clothing-Shoes-Accessories_11.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u042e\u0432\u0435\u043b\u0438\u0440\u043d\u044b\u0435 \u0443\u043a\u0440\u0430\u0448\u0435\u043d\u0438\u044f \u0438 \u0427\u0430\u0441\u044b',
+ 'url': u'/c/Jewelry-Watches_12.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0421\u043f\u043e\u0440\u0442 \u0438 \u041f\u043e\u0445\u043e\u0434\u044b',
+ 'url': u'/c/Sports-Outdoor-Goods_14.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435 \u0438 \u043a\u0440\u0430\u0441\u043e\u0442\u0430',
+ 'url': u'/c/Health-Beauty_15.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'url': u'/c/Home-Garden_16.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'url': u'/c/Toys-Hobbies_17.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'Apple \u0410\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Apple-Accessories_173.html'}
+2016-06-10 20:13:53 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/sitemap.html>
+{'title': u'\u0418\u043d\u0442\u0438\u043c\u043d\u0430\u044f \u043e\u0434\u0435\u0436\u0434\u0430',
+ 'url': u'/c/Intimate-Apparel_266.html'}
+2016-06-10 20:13:53 [scrapy] INFO: Closing spider (finished)
+2016-06-10 20:13:53 [scrapy] INFO: Stored json feed (126 items) in: file:///D:/Pyton/tutorialScrapy/items/tutorialScrapy/category/b01f210f2f2e11e6aa32001966f77bc4.jl
+2016-06-10 20:13:53 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 227,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 51618,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 6, 10, 17, 13, 53, 876000),
+ 'item_scraped_count': 126,
+ 'log_count/DEBUG': 128,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 6, 10, 17, 13, 48, 991000)}
+2016-06-10 20:13:53 [scrapy] INFO: Spider closed (finished)

@@ -1,0 +1,100 @@
+2016-06-10 17:17:33 [scrapy] INFO: Scrapy 1.1.0 started (bot: tutorialScrapy)
+2016-06-10 17:17:33 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tutorialScrapy.spiders', 'FEED_URI': 'file:///D:/Pyton/tutorialScrapy/items/tutorialScrapy/category/112804402f1611e69fb9001966f77bc4.jl', 'SPIDER_MODULES': ['tutorialScrapy.spiders'], 'BOT_NAME': 'tutorialScrapy', 'DEFAULT_ITEM_CLASS': 'tutorialScrapy.items.ProductItem', 'FEED_FORMAT': 'json', 'LOG_FILE': 'logs\\tutorialScrapy\\category\\112804402f1611e69fb9001966f77bc4.log'}
+2016-06-10 17:17:33 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-06-10 17:17:33 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-06-10 17:17:33 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-06-10 17:17:33 [py.warnings] WARNING: tutorialScrapy\pipelines.py:17: ScrapyDeprecationWarning: Importing from scrapy.xlib.pydispatch is deprecated and will no longer be supported in future Scrapy versions. If you just want to connect signals use the from_crawler class method, otherwise import pydispatch directly if needed. See: https://github.com/scrapy/scrapy/issues/1762
+  from scrapy.xlib.pydispatch import dispatcher
+
+2016-06-10 17:17:33 [scrapy] INFO: Enabled item pipelines:
+['tutorialScrapy.pipelines.JsonExportPipeline']
+2016-06-10 17:17:33 [scrapy] INFO: Spider opened
+2016-06-10 17:17:33 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-06-10 17:17:33 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-06-10 17:17:34 [scrapy] DEBUG: Crawled (200) <GET http://www.buyincoins.ru/> (referer: None)
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u041a\u043e\u043c\u043f\u044c\u044e\u0442\u0435\u0440\u044b',
+ 'url': u'/c/Computers-Networking_4.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0438\u043a\u0438',
+ 'url': u'/c/Electronics_8.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u041c\u043e\u0431\u0438\u043b\u044c\u043d\u0438\u043a\u0438',
+ 'url': u'/c/Cell-Phones_5.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u041a\u0440\u0430\u0441\u043e\u0442\u0430 \u0438 \u0417\u0434\u043e\u0440\u043e\u0432\u044c\u0435',
+ 'url': u'/c/Health-Beauty_15.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u0414\u043e\u043c \u0438 \u0421\u0430\u0434',
+ 'url': u'/c/Home-Garden_16.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u041c\u043e\u0434\u0430',
+ 'url': u'/c/Clothing-Shoes-Accessories_11.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u0414\u0440\u0430\u0433\u043e\u0446\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438 \u0427\u0430\u0441\u044b',
+ 'url': u'/c/Jewelry-Watches_12.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u0410\u0432\u0442\u043e \u0430\u043a\u0441\u0435\u0441\u0441\u0443\u0430\u0440\u044b',
+ 'url': u'/c/Car-Accessories_6.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u0421\u043f\u043e\u0440\u0442',
+ 'url': u'/c/Sports-Outdoor-Goods_14.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u0418\u0433\u0440\u0443\u0448\u043a\u0438 \u0438 \u0425\u043e\u0431\u0431\u0438',
+ 'url': u'/c/Toys-Hobbies_17.html'}
+2016-06-10 17:17:34 [scrapy] DEBUG: Scraped from <200 http://www.buyincoins.ru/>
+{'category_id': 0,
+ 'title': u'\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435',
+ 'url': u'#'}
+2016-06-10 17:17:34 [scrapy] INFO: Closing spider (finished)
+2016-06-10 17:17:34 [scrapy] INFO: Stored json feed (11 items) in: file:///D:/Pyton/tutorialScrapy/items/tutorialScrapy/category/112804402f1611e69fb9001966f77bc4.jl
+2016-06-10 17:17:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 215,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 211566,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 6, 10, 14, 17, 34, 992000),
+ 'item_scraped_count': 11,
+ 'log_count/DEBUG': 13,
+ 'log_count/INFO': 8,
+ 'log_count/WARNING': 1,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2016, 6, 10, 14, 17, 33, 343000)}
+2016-06-10 17:17:34 [scrapy] INFO: Spider closed (finished)
