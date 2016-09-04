@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for tutorialScrapy project
+# Scrapy settings for BCScraper project
 #
 # For simplicity, this file contains only the most important settings by
 # default. All the other settings are documented here:
@@ -8,15 +8,15 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #
 
-BOT_NAME = 'tutorialScrapy'
+BOT_NAME = 'BCScraper'
 
-SPIDER_MODULES = ['tutorialScrapy.spiders']
-NEWSPIDER_MODULE = 'tutorialScrapy.spiders'
-DEFAULT_ITEM_CLASS = 'tutorialScrapy.items.ProductItem'
+SPIDER_MODULES = ['BCScraper.spiders']
+NEWSPIDER_MODULE = 'BCScraper.spiders'
+DEFAULT_ITEM_CLASS = 'BCScraper.items.ProductItem'
 ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1,
-    #'tutorialScrapy.pipelines.JsonExportPipeline': 400,
-    'tutorialScrapy.pipelines.MySQLStoreProductPipeline': 400
+    #'BCScraper.pipelines.JsonExportPipeline': 400,
+    'BCScraper.pipelines.MySQLStoreProductPipeline': 400
 }
 
 DATABASE_NAME = 'scrapy'
@@ -37,4 +37,4 @@ FEED_FORMAT = 'json'
 #}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'tutorialScrapy (+http://www.yourdomain.com)'
+#USER_AGENT = 'BCScraper (+http://www.yourdomain.com)'
