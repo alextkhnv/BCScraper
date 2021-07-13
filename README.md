@@ -1,2 +1,2 @@
 # BCScraper
-scrapinf buyincoins.com
+scraping buyincoins.com
